@@ -1,0 +1,150 @@
+@charset "utf-8";body{margin:0;padding:0;font-family:Roboto;background:#191000;cursor:default;}
+a img{border:none;text-decoration:none;}
+a{border:none;text-decoration:none;}
+.allcarcas{
+	max-width:1280px;
+	max-width: 1150px;
+	margin:0 auto;
+	background:url(../img/bg.jpg);
+	background-attachment: fixed;
+	background-position:top center;
+	background-repeat:no-repeat;}
+.allcontent{
+	/*max-width:1070px;*/
+	margin:0 auto;
+	padding:50px 25px 0 25px;}
+.header img{float:left;}
+#fongood_banner img{padding:10px 0 0 55px;text-decoration:none;}
+#fongood_banner{text-decoration:none;}
+.sched{
+	padding-top:15px;
+	float:right;
+	text-align:end;
+	font-size:20px;
+	color:#eee;
+	margin-top: 45px;
+}
+.slider_up{margin-top:170px;}
+/*.comingsoon{float:left;}*/
+.artcinema_promotion{
+	cursor:pointer;
+	/*float:right;*/
+	margin: 0 auto;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-khtml-border-radius:10px;
+	border-radius:10px;
+	width:250px;
+	height:333px;
+	box-shadow:1px 1px 10px #000;margin-top: 15px;
+}
+.artcinema_promotion img{-moz-border-radius:10px;-webkit-border-radius:10px;-khtml-border-radius:10px;border-radius:10px;text-decoration:none;}
+.artcinema_promotion img a{text-decoration:none;}
+.content_films{
+	/*margin-top:530px;*/
+	background:url(../img/coming_soon_bg.png);
+	-moz-border-radius:10px 10px 0 0;-webkit-border-radius:10px 10px 0 0;
+	-khtml-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;width:100%;
+	box-shadow:1px 1px 10px #000;}
+.today_text{text-align:center;padding:50px 0 30px 0;color:red;font-weight:bold;letter-spacing:2px;font-size:30px;text-transform:uppercase;}
+.update_afisha{font-size:13px;font-weight:normal;color:#FFBF00;}
+.film_block{
+	/*float:left;*/
+	width:320px;
+	padding-left:30px;
+	margin: 0 auto;
+}
+.film_title{overflow:hidden;text-overflow:ellipsis;text-align:center;height:45px;line-height:15px;margin-bottom:2px;color:#eee;font-size:14px;text-transform:uppercase;}
+.film_description{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#eee;font-size:12px;}
+.film_poster{max-width:200px;float:left;padding-right:15px;}
+.view_button{margin:25px 0 15px 2px;-moz-border-radius:5px;-webkit-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;}
+.view_button:hover{box-shadow:0 0 3px #fff;}
+.sessions_and_price{margin:15px 0 60px 0;color:#eee;font-size:15px;}
+.sessions_and_price span{color:#FFBF00;}
+.kinocafe{
+	margin-bottom:20px;
+	/*height:419px;*/
+	/*background:url(../img/footer_bg.jpg);*/
+	-moz-border-radius:0 0 10px 10px;
+	-webkit-border-radius:0 0 10px 10px;
+	-khtml-border-radius:0 0 10px 10px;
+	border-radius:0 0 10px 10px;
+	box-shadow:1px 1px 10px #000;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.kinocafe img {
+	/*height: 50%;*/
+	width: 100%;
+
+}
+.login_carcas{background:url("../img/admin_bg.jpg");background-attachment:fixed;background-repeat:no-repeat;background-position:top center;background-size:cover;width:100%;height:100%;}
+.descr_film{font-size:14px;}
+.liveinternet{padding:0 0 5px 0;margin-top:20px;}
+.artcinema_footer{float:right;margin:-45px 0 10px 0;}
+#artcinema_html5{width:250px;height:333px;-moz-border-radius:10px;-webkit-border-radius:10px;-khtml-border-radius:10px;border-radius:10px;}
+#adm{text-decoration:none;color:#eee;}
+#promo{width:800px;height:334px;position:relative;}
+#artcinema_promo{width:800px;height:334px;-moz-border-radius:10px;-webkit-border-radius:10px;-khtml-border-radius:10px;border-radius:10px;}
+#mute{position:absolute;right:15px;bottom:15px;z-index:20000;}
+
+
+.slider {
+	min-height: 333px;
+	background-image: url("../comingsoon_img/stolitsakino_валериан.jpg");
+	background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.caption-contain {
+    background: #00b4ff;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 0 2px #111;
+    padding: 7px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 4px;
+
+}
+
+.logo {
+	width: 300px;
+	height: 105px;
+
+} 
+/*.bord {
+	outline: 1px solid red;
+
+}*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.caption {
+	opacity: 1; 
+	position: relative; 
+	width: 540px; 
+	height: 35px; 
+	top: 0px; 
+	left: 0px;
+}
+
+
+
+@media screen and (max-width: 998px) {
+	.sched, .caption {
+		font-size: 0.8em;
+		/*text-align: center;*/
+
+
+	}
+
+
+}
